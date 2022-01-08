@@ -1,0 +1,5 @@
+void (*pVar)(char *token) = &addNewVarName;
+void (*pType)(char *token) = &addNewDataType;
+int t;
+int t;
+int t;

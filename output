@@ -1,0 +1,52 @@
+1: 
+2: /* Not wiring the search pattern deep into the program anymore */
+3: /* Optional arguments should be permitted in any order. */
+4: /* And the rest of the program should be independent of the number of arguments that were present */
+5: 
+6: 
+7: #include <stdio.h>
+8: #include <string.h>
+9: #include "mygetline.h"
+10: 
+11: #define dprint(expr) printf(#expr "=: %d\n", expr)
+12: 
+13: #define MAXLINE 1000
+14: /* find: print lines that match pattern from 1st arg */
+15: /* with the options -n -x or -nx supported */
+16: int main(int argc, char *argv[])
+17: {
+18: 
+19: 	char line[MAXLINE];
+20: 	long lineno = 0;
+21: 	int c, except = 0, number = 0, found = 0;
+22: 
+23: 	while (--argc > 0 && (*++argv)[0] == '-')
+24: 		while (c = *++argv[0])
+25: 			switch (c) {
+26: 				case 'x':
+27: 					except = 1;
+28: 					break;
+29: 				case 'n':
+30: 					number = 1;
+31: 					break;
+32: 				default:
+33: 					printf("find: illegal option %c\n", c);
+34: 					argc = 0;
+35: 					found = -1;
+36: 					break;
+37: 			}
+38: 
+39: 
+41: 		printf("Usage: find -x -n pattern\n");
+42: 
+43: 	else
+44: 		while (mygetline(line, MAXLINE) > 0) {
+45: 			lineno++;
+48: 					printf("%ld: ", lineno);
+49: 				printf("%s", line);
+50: 				found++;
+51: 			}
+52: 		}
+53: 
+54: 	return found;
+55: }

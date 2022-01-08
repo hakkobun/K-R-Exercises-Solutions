@@ -1,0 +1,16 @@
+This is the Reverse Polish calculator program from chapter 4. I'll copy the scaffolding codes
+from the book example. Then slowly add more features along the examples.
+
+Learning goal:
+-compiling multiple programs
+-learn about header file
+-learn about extern/static/scopes of names
+-learn to write functions
+-learn design of intermediate size program
+
+
+
+BUGS:
+
+- handle inputs such as "-.124"
+- fix normal subtraction operation

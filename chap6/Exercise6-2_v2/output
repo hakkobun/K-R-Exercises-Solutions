@@ -1,0 +1,176 @@
+installed int
+installed float
+installed double
+installed char
+installed void
+Group Tree Initialized
+Prefix Len Sets to 10
+installed int
+installed float
+installed double
+installed char
+installed void
+Group Tree Initialized
+Handling a valid data type
+In addToGroupTree: NULL
+		Added New Variable Name: [ pVar ] to the VarNameTree
+Handling a valid data type
+In addToGroupTree: Same prefix exist
+		Added New Variable Name: [ pType ] to the VarNameTree
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ simpleListHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 15
+			Handling Inside Block @ Line 16
+				Handling Inside Block @ Line 20
+				Block handled succesfully @ Line 24
+			Block handled succesfully @ Line 25
+			Handling Inside Block @ Line 25
+			Block handled succesfully @ Line 29
+		Block handled succesfully @ Line 30
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ blockHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 47
+			Handling Inside Block @ Line 55
+			Block handled succesfully @ Line 57
+		Block handled succesfully @ Line 59
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ insideStructHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 74
+			Handling Inside Block @ Line 76
+			Block handled succesfully @ Line 80
+			Handling Inside Block @ Line 81
+			Block handled succesfully @ Line 83
+			Handling Inside Block @ Line 84
+			Block handled succesfully @ Line 86
+			Handling Inside Block @ Line 87
+			Block handled succesfully @ Line 91
+		Block handled succesfully @ Line 93
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ insideFunctionHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 105
+			Handling Inside Block @ Line 107
+			Block handled succesfully @ Line 109
+			Handling Inside Block @ Line 110
+			Block handled succesfully @ Line 112
+			Handling Inside Block @ Line 113
+			Block handled succesfully @ Line 115
+			Handling Inside Block @ Line 116
+			Block handled succesfully @ Line 118
+		Block handled succesfully @ Line 120
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ structHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 131
+		Block handled succesfully @ Line 134
+		Handling Inside Block @ Line 135
+			Handling Inside Block @ Line 136
+			Block handled succesfully @ Line 139
+			Handling Inside Block @ Line 139
+			Block handled succesfully @ Line 141
+		Block handled succesfully @ Line 142
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ typedefHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 158
+			Handling Inside Block @ Line 159
+			Block handled succesfully @ Line 162
+			Handling Inside Block @ Line 163
+				Handling Inside Block @ Line 164
+				Block handled succesfully @ Line 167
+				Handling Inside Block @ Line 168
+				Block handled succesfully @ Line 170
+			Block handled succesfully @ Line 171
+		Block handled succesfully @ Line 172
+		Handling Inside Block @ Line 173
+		Block handled succesfully @ Line 175
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ beforeName ]
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ afterName ]
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ assignment ]
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ validTypeNameHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ name_tmp ] to the VarNameTree
+		Handling a valid data type
+In addToGroupTree: Go right
+In addToGroupTree: NULL
+				Added New Variable Name: [ return_type ] to the VarNameTree
+		Handling Inside Block @ Line 219
+			Handling Inside Block @ Line 220
+				Handling Inside Block @ Line 221
+				Block handled succesfully @ Line 224
+			Block handled succesfully @ Line 226
+			Handling Inside Block @ Line 231
+				Handling Inside Block @ Line 235
+					Handling Inside Block @ Line 236
+					Block handled succesfully @ Line 239
+				Block handled succesfully @ Line 241
+				Handling Inside Block @ Line 243
+				Block handled succesfully @ Line 248
+				Handling Inside Block @ Line 249
+				Block handled succesfully @ Line 251
+			Block handled succesfully @ Line 252
+			Handling Inside Block @ Line 253
+				Handling Inside Block @ Line 256
+					Handling Inside Block @ Line 257
+					Block handled succesfully @ Line 260
+				Block handled succesfully @ Line 262
+				Handling Inside Block @ Line 263
+					Handling Inside Block @ Line 264
+						Handling Inside Block @ Line 265
+						Block handled succesfully @ Line 268
+					Block handled succesfully @ Line 270
+				Block handled succesfully @ Line 271
+			Block handled succesfully @ Line 272
+		Block handled succesfully @ Line 273
+Handling a valid data type
+	Handling a function name
+	Handling Inside Declaration of Function [ mainHandler ]
+		Handling a valid data type
+In addToGroupTree: Same prefix exist
+				Added New Variable Name: [ t ] to the VarNameTree
+		Handling Inside Block @ Line 288
+			Handling Inside Block @ Line 291
+			Block handled succesfully @ Line 293
+			Handling Inside Block @ Line 294
+			Block handled succesfully @ Line 296
+			Handling Inside Block @ Line 297
+			Block handled succesfully @ Line 299
+			Handling Inside Block @ Line 300
+			Block handled succesfully @ Line 302
+		Block handled succesfully @ Line 303
+Showing Results
+Names which are not greater than prefix len (4) : name_tmp, pType, pVar, t
+return_typ (1) : return_type

@@ -1,0 +1,22 @@
+This is the improved Reverse Polish calculator program from chapter 5. 
+
+We're going to receive the ops from the command line arguments instead
+Also notice that the command line doesn't support tabs (if it's the command, not the text input mode)
+
+It will support floating points, and 4 operations +, -, *, /
+
+Trying to reuse as much code as possible
+
+
+Version 0.1 
+#No error checking.
+#Assumes 5 types of inputs +, -, *, /, float
+#Assume legal input
+
+read the arguments one by one
+    if it's number put it into the stack
+    if it's operator, compute
+
+if there's more than one element left, error
+
+* needs to be passed to the command line as '*', because it's a special character
